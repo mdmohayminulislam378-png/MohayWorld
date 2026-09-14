@@ -1,0 +1,316 @@
+{
+  "users": [
+    {
+      "id": "user-sample-01",
+      "telegramId": "613669930",
+      "username": "official_admin",
+      "firstName": "Admin",
+      "lastName": "User",
+      "language": "en",
+      "balance": 1500,
+      "status": "active",
+      "role": "admin",
+      "referralCode": "REF613669",
+      "referredBy": null,
+      "totalDeposited": 3000,
+      "totalSpent": 1500,
+      "totalCommissionEarned": 135,
+      "createdAt": "2026-08-15T01:52:06.820Z",
+      "lastActiveAt": "2026-09-14T02:16:47.980Z"
+    },
+    {
+      "id": "user-sample-02",
+      "telegramId": "778899001",
+      "username": "rahim_tech",
+      "firstName": "Rahim",
+      "lastName": "Ahmed",
+      "language": "en",
+      "balance": 450,
+      "status": "active",
+      "role": "user",
+      "referralCode": "REF778899",
+      "referredBy": "613669930",
+      "totalDeposited": 800,
+      "totalSpent": 350,
+      "totalCommissionEarned": 0,
+      "createdAt": "2026-08-30T01:52:06.820Z",
+      "lastActiveAt": "2026-09-14T01:52:06.820Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-telegram",
+      "nameEn": "Telegram Services",
+      "nameBn": "টেলিগ্রাম সার্ভিসেস",
+      "icon": "Send",
+      "sortOrder": 1,
+      "active": true
+    },
+    {
+      "id": "cat-gaming",
+      "nameEn": "Gaming Topup",
+      "nameBn": "গেমিং টপআপ",
+      "icon": "Gamepad2",
+      "sortOrder": 2,
+      "active": true
+    },
+    {
+      "id": "cat-subs",
+      "nameEn": "Subscriptions & OTT",
+      "nameBn": "সাবস্ক্রিপশন ও ওটিটি",
+      "icon": "Tv",
+      "sortOrder": 3,
+      "active": true
+    },
+    {
+      "id": "cat-tools",
+      "nameEn": "Software & AI Tools",
+      "nameBn": "সফটওয়্যার ও এআই টুলস",
+      "icon": "Cpu",
+      "sortOrder": 4,
+      "active": true
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-tg-prem-3m",
+      "categoryId": "cat-telegram",
+      "nameEn": "Telegram Premium (3 Months Gift)",
+      "nameBn": "টেলিগ্রাম প্রিমিয়াম (৩ মাস গিফট)",
+      "descriptionEn": "Official Telegram Premium 3 months subscription gift link activated directly on your handle.",
+      "descriptionBn": "অফিসিয়াল টেলিগ্রাম প্রিমিয়াম ৩ মাসের সাবস্ক্রিপশন গিফট লিংক সরাসরি আপনার অ্যাকাউন্টে।",
+      "price": 1350,
+      "stock": 50,
+      "imageUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=500&auto=format&fit=crop&q=60",
+      "active": true,
+      "deliveryType": "instant",
+      "autoDeliveryItems": [
+        "https://t.me/giftcode/TG-PREM-3M-DEMO-A1938274",
+        "https://t.me/giftcode/TG-PREM-3M-DEMO-B8827419",
+        "https://t.me/giftcode/TG-PREM-3M-DEMO-C3391024"
+      ],
+      "createdAt": "2026-09-14T01:52:06.820Z",
+      "updatedAt": "2026-09-14T01:52:06.820Z"
+    },
+    {
+      "id": "prod-tg-stars-100",
+      "categoryId": "cat-telegram",
+      "nameEn": "Telegram Stars (100 Stars)",
+      "nameBn": "টেলিগ্রাম স্টারস (১০০ স্টার)",
+      "descriptionEn": "Official Telegram Stars package for bots, mini-apps, and channel gifts.",
+      "descriptionBn": "বট, মিনি অ্যাপ এবং চ্যানেল গিফটের জন্য অফিসিয়াল টেলিগ্রাম স্টার প্যাকেজ।",
+      "price": 240,
+      "stock": 200,
+      "imageUrl": "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=500&auto=format&fit=crop&q=60",
+      "active": true,
+      "deliveryType": "manual",
+      "createdAt": "2026-09-14T01:52:06.820Z",
+      "updatedAt": "2026-09-14T01:52:06.820Z"
+    },
+    {
+      "id": "prod-ff-diamonds-1000",
+      "categoryId": "cat-gaming",
+      "nameEn": "Free Fire 1000 + 100 Diamonds",
+      "nameBn": "ফ্রি ফায়ার ১০০০ + ১০০ ডায়মন্ড",
+      "descriptionEn": "UID Direct Top-up within 5-15 minutes.",
+      "descriptionBn": "ইউজার আইডি (UID) ডিরেক্ট টপআপ ৫-১৫ মিনিটের মধ্যে সম্পন্ন হবে।",
+      "price": 850,
+      "stock": 100,
+      "imageUrl": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=500&auto=format&fit=crop&q=60",
+      "active": true,
+      "deliveryType": "manual",
+      "createdAt": "2026-09-14T01:52:06.820Z",
+      "updatedAt": "2026-09-14T01:52:06.820Z"
+    },
+    {
+      "id": "prod-netflix-1m",
+      "categoryId": "cat-subs",
+      "nameEn": "Netflix 4K UHD 1 Month (Private Profile)",
+      "nameBn": "নেটফ্লিক্স ৪কে ইউএইচডি ১ মাস (প্রাইভেট প্রোফাইল)",
+      "descriptionEn": "Private PIN-protected profile with 4K Ultra HD streaming on all devices.",
+      "descriptionBn": "সকল ডিভাইসে ৪কে আল্ট্রা এইচডি স্ট্রিমিং সহ ব্যক্তিগত পিন-সুরক্ষিত প্রোফাইল।",
+      "price": 320,
+      "stock": 35,
+      "imageUrl": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=500&auto=format&fit=crop&q=60",
+      "active": true,
+      "deliveryType": "instant",
+      "autoDeliveryItems": [
+        "Email: ott_vip01@streammail.com | Pass: StreamPass#992 | Profile: Pin 4410",
+        "Email: ott_vip02@streammail.com | Pass: StreamPass#118 | Profile: Pin 8933"
+      ],
+      "createdAt": "2026-09-14T01:52:06.820Z",
+      "updatedAt": "2026-09-14T01:52:06.820Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-initial-01",
+      "telegramId": "613669930",
+      "productId": "prod-tg-prem-3m",
+      "productNameEn": "Telegram Premium (3 Months Gift)",
+      "productNameBn": "টেলিগ্রাম প্রিমিয়াম (৩ মাস গিফট)",
+      "quantity": 1,
+      "unitPrice": 1350,
+      "totalAmount": 1350,
+      "status": "Completed",
+      "deliveryData": "https://t.me/giftcode/TG-PREM-3M-DEMO-A1938274",
+      "createdAt": "2026-09-09T01:52:06.821Z",
+      "updatedAt": "2026-09-09T01:52:06.821Z"
+    }
+  ],
+  "deposits": [
+    {
+      "id": "dep-initial-01",
+      "telegramId": "613669930",
+      "methodId": "pm-bkash",
+      "methodName": "bKash Send Money",
+      "amount": 2000,
+      "transactionId": "BL19283749",
+      "senderNumber": "01711-000000",
+      "status": "Approved",
+      "adminNote": "Verified bKash transaction",
+      "reviewedBy": "Admin",
+      "createdAt": "2026-09-08T01:52:06.821Z",
+      "updatedAt": "2026-09-08T01:52:06.821Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx-initial-01",
+      "telegramId": "613669930",
+      "type": "deposit",
+      "amount": 2000,
+      "previousBalance": 0,
+      "newBalance": 2000,
+      "referenceId": "dep-initial-01",
+      "descriptionEn": "Deposit via bKash Send Money (Trx: BL19283749)",
+      "descriptionBn": "বিকাশ সেন্ড মানি ডিপোজিট (ট্রানজেকশন: BL19283749)",
+      "createdAt": "2026-09-08T01:52:06.821Z"
+    },
+    {
+      "id": "tx-initial-02",
+      "telegramId": "613669930",
+      "type": "purchase",
+      "amount": -1350,
+      "previousBalance": 2000,
+      "newBalance": 650,
+      "referenceId": "ord-initial-01",
+      "descriptionEn": "Purchased Telegram Premium (3 Months Gift) x1",
+      "descriptionBn": "টেলিগ্রাম প্রিমিয়াম (৩ মাস গিফট) ক্রয় x১",
+      "createdAt": "2026-09-09T01:52:06.821Z"
+    },
+    {
+      "id": "tx-initial-03",
+      "telegramId": "613669930",
+      "type": "deposit",
+      "amount": 850,
+      "previousBalance": 650,
+      "newBalance": 1500,
+      "referenceId": "dep-initial-02",
+      "descriptionEn": "Deposit via Nagad (Trx: NG88771122)",
+      "descriptionBn": "নগদ ডিপোজিট (ট্রানজেকশন: NG88771122)",
+      "createdAt": "2026-09-13T01:52:06.821Z"
+    }
+  ],
+  "referrals": [
+    {
+      "id": "ref-01",
+      "referrerTelegramId": "613669930",
+      "referredTelegramId": "778899001",
+      "referredUserName": "Rahim Ahmed",
+      "totalPurchases": 1350,
+      "commissionsGenerated": 135,
+      "createdAt": "2026-08-31T01:52:06.821Z"
+    }
+  ],
+  "commissions": [
+    {
+      "id": "comm-01",
+      "referrerTelegramId": "613669930",
+      "buyerTelegramId": "778899001",
+      "orderId": "ord-ref-demo",
+      "purchaseAmount": 1350,
+      "ratePercent": 10,
+      "amount": 135,
+      "createdAt": "2026-09-04T01:52:06.821Z"
+    }
+  ],
+  "paymentMethods": [
+    {
+      "id": "pm-bkash",
+      "nameEn": "bKash Send Money",
+      "nameBn": "বিকাশ সেন্ড মানি",
+      "type": "bkash",
+      "accountNumber": "01712-345678",
+      "accountType": "Personal",
+      "minAmount": 50,
+      "maxAmount": 25000,
+      "instructionsEn": "Send Money to the bKash personal number above. Enter the Transaction ID (TrxID) and sender number below.",
+      "instructionsBn": "উপরের বিকাশ পার্সোনাল নাম্বারে সেন্ড মানি করুন। নিচে ট্রানজেকশন আইডি (TrxID) এবং প্রেরক নাম্বার দিন।",
+      "active": true
+    },
+    {
+      "id": "pm-nagad",
+      "nameEn": "Nagad Send Money",
+      "nameBn": "নগদ সেন্ড মানি",
+      "type": "nagad",
+      "accountNumber": "01898-765432",
+      "accountType": "Personal",
+      "minAmount": 50,
+      "maxAmount": 25000,
+      "instructionsEn": "Send Money to the Nagad personal number above. Enter your 8-character Transaction ID (TxnID) below.",
+      "instructionsBn": "উপরের নগদ পার্সোনাল নাম্বারে সেন্ড মানি করুন। নিচে আপনার ট্রানজেকশন আইডি (TxnID) দিন।",
+      "active": true
+    },
+    {
+      "id": "pm-usdt",
+      "nameEn": "Crypto USDT (TRC-20 / BEP-20)",
+      "nameBn": "ক্রিপ্টো ইউএসডিটি (TRC-20 / BEP-20)",
+      "type": "crypto_usdt",
+      "accountNumber": "TKj98XmP8sLL7q2VwZ10p98KjmnTRC20addr",
+      "accountType": "Merchant",
+      "minAmount": 500,
+      "maxAmount": 100000,
+      "instructionsEn": "Transfer USDT to TRC20 address. 1 USDT = 125 BDT. Paste the TXID / Hash below.",
+      "instructionsBn": "টিআরসি২০ এড্রেসে ইউএসডিটি পাঠান। ১ ইউএসডিটি = ১২৫ টাকা। নিচে ট্রানজেকশন হ্যাশ (TXID) দিন।",
+      "active": true
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-01",
+      "titleEn": "⚡ Instant Auto Delivery Active",
+      "titleBn": "⚡ ইন্সট্যান্ট অটো ডেলিভারি চালু আছে",
+      "contentEn": "Telegram Premium and OTT subscriptions now deliver immediately upon balance deduction.",
+      "contentBn": "টেলিগ্রাম প্রিমিয়াম ও ওটিটি সাবস্ক্রিপশন এখন ব্যালেন্স কাটার সাথে সাথে স্বয়ংক্রিয়ভাবে ডেলিভারি হয়।",
+      "target": "all",
+      "type": "announcement",
+      "active": true,
+      "createdAt": "2026-09-14T01:52:06.820Z"
+    }
+  ],
+  "settings": {
+    "currencySymbol": "৳",
+    "currencyCode": "BDT",
+    "referralCommissionPercent": 10,
+    "minDepositAmount": 50,
+    "supportUsername": "TelegramSupportAdmin",
+    "supportChannel": "t.me/OfficialUpdates",
+    "botUsername": "OfficialStoreBot",
+    "maintenanceMode": false,
+    "welcomeMessageEn": "Welcome to our Official Store! Top up your wallet and start purchasing premium digital products instantly.",
+    "welcomeMessageBn": "আমাদের অফিসিয়াল স্টোরে স্বাগতম! ওয়ালেট টপআপ করুন এবং নিমেষেই প্রিমিয়াম ডিজিটাল পণ্য কিনুন।"
+  },
+  "auditLogs": [
+    {
+      "id": "audit-01",
+      "actor": "System",
+      "action": "INIT_DATABASE",
+      "targetType": "SYSTEM",
+      "details": {
+        "message": "Database initialized with central tables and integrity checks."
+      },
+      "timestamp": "2026-09-14T01:52:06.821Z"
+    }
+  ]
+}
